@@ -481,8 +481,11 @@ li:hover
 {
   clear: left;
   font-weight: bolder;
-  cursor: pointer;
   color: #C3823D;
+}
+.removespan
+{
+  cursor: pointer;
 }
 #subtotal, .prdTotal
 {

@@ -336,7 +336,7 @@ session_start();
         }
         echo '</div>';
         echo '</div>';
-        echo '<p class="remove" id="remove_' . $rows['prod_id'] . '_' . $rows['size_id'] . '" onclick="AddRemoveItem(this.id);">Remove</p>';
+        echo '<p class="remove"><span class="removespan" id="remove_' . $rows['prod_id'] . '_' . $rows['size_id'] . '" onclick="AddRemoveItem(this.id);">Remove</span></p>';
         echo '<hr class="fullcarthr">';
         echo ('<div class="prdTotaldiv">
               <p class="prdTotal">Product Total
@@ -410,7 +410,7 @@ session_start();
         }
         echo '</div>';
         echo '</div>';
-        echo '<p class="remove" id="remove_' . $rows['prod_id'] . '_' . $_SESSION['temp_tbl_item'][$i][2] .'" onclick="AddRemoveItem(this.id);">Remove</p>';
+        echo '<p class="remove"><span class="removespan" id="remove_' . $rows['prod_id'] . '_' . $_SESSION['temp_tbl_item'][$i][2] .'" onclick="AddRemoveItem(this.id);">Remove</span></p>';
         echo '<hr class="fullcarthr">';
         echo ('<div class="prdTotaldiv">
               <p class="prdTotal">Product Total
