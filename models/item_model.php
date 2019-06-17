@@ -160,7 +160,7 @@ session_start();
 
         $_SESSION['item_count'] = $result_row['count'];
 
-        echo $_SESSION['item_count'] . '_' . $_SESSION['cart_avail'];;
+        echo $_SESSION['item_count'] . '.' . $_SESSION['cart_avail'];;
       }
     }
     else // for non-loggedIn users
